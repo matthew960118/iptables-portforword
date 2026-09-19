@@ -38,7 +38,13 @@ Install the command:
 sudo install -m 755 portforward /usr/local/bin/portforward
 ```
 
-If the project provides an installation script, it can be used instead.
+Install required packages:
+```bash
+sudo apt update sudo apt install -y iptables jq
+```
+```bash
+sudo apt install -y iptables-persistent
+```
 
 ## Usage
 
