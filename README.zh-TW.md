@@ -38,7 +38,13 @@ cd iptables-portforward
 sudo install -m 755 portforward /usr/local/bin/portforward
 ```
 
-如果專案提供安裝腳本，也可以直接使用安裝腳本。
+安裝必要套件：
+```bash
+sudo apt update sudo apt install -y iptables jq
+```
+```bash
+sudo apt install -y iptables-persistent
+```
 
 ## 使用方式
 
